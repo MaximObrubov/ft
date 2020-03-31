@@ -6,7 +6,7 @@ class Table {
     this.cols = Object.keys(data[0]);
     this.$view = data.reduce(($table, row) => {
       return $table.append(this._getTr(row));
-    }, $('<table/>').prepend(this._getHead(this.cols)));
+    }, $(`<table class="table"/>`).prepend(this._getHead(this.cols)));
   }
   
   _getHead() {
