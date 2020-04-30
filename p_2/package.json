@@ -11,7 +11,7 @@
     "babel-loader": "^6.0.1",
     "babel-preset-es2015": "^6.0.15",
     "http-server": "^0.12.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "node-libs-browser": "^0.5.3",
     "webpack": "^1.12.2"
   }
